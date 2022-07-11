@@ -419,10 +419,11 @@ footer
 }
 
 
-@media(min-width: 425px) and (max-width:425px)
+@media(min-width: 400px)
 {
   header
   {
+    width: 100%;
     background: linear-gradient(#181C88,#4A0C68);
     box-shadow: 0px 6px 10px rgba(0,0,0,1);
     text-shadow: 2px 2px 2px rgba(0,0,0,1);
