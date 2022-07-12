@@ -419,7 +419,7 @@ footer
 }
 
 
-@media(min-width: 320px) and (max-width: 435px) 
+@media(min-width: 320px) and (max-width: 425px) 
 {
   *{
     margin: 0;
@@ -488,4 +488,328 @@ footer
     width: auto;
     height: auto;
   }
+  #section_footer_container_socialmedia a:nth-of-type(2), #section_footer_container_socialmedia a:nth-of-type(3), #section_footer_container_socialmedia a:nth-of-type(4), #section_footer_container_socialmedia a:nth-of-type(5), #section_footer_container_socialmedia a:nth-of-type(6), #section_footer_container_socialmedia a:nth-of-type(7), #section_footer_container_socialmedia a:nth-of-type(8)
+  {
+    display: none;
+  }
+}
+
+@media(min-width: 426px) and (max-width: 768px) 
+{
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  header
+  {
+    
+    background: linear-gradient(#181C88,#4A0C68);
+    box-shadow: 0px 6px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  }
+
+  #section_team_container , #section_reference_main_container
+  {
+    padding: 15px;
+    line-height: 35px;
+  }
+
+  #container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  img#logo
+  {
+    margin-left: 0%;
+  }
+  
+  nav
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 0%;
+  }
+  
+  div nav:nth-of-type(2)
+  {
+    margin-top: -8px;
+    margin-left: 0%;
+  }
+
+  #juegos
+  {
+    display: none;
+  }
+
+  #section_type_container_items
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card
+  {
+    height: 300px;
+  }
+  
+  #tituloFooter
+  {
+    width: 400px;
+  }
+
+  #section_footer_container_socialmedia a:nth-of-type(1)
+  {
+    display: none;
+  }
+}
+
+@media(min-width: 769px) and (max-width: 1024px) 
+{
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  header
+  {
+    background: linear-gradient(#181C88,#4A0C68);
+    box-shadow: 0px 6px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  #container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img#logo
+  {
+    margin-left: 0%;
+  }
+  
+  nav
+  {
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-basis: 35%;
+  }
+  
+  div nav:nth-of-type(2)
+  {
+    margin-left: 5%;
+  }
+
+  #section_team_container , #section_reference_main_container
+  {
+    padding: 15px;
+    line-height: 35px;
+  }
+  
+  #juegos
+  {
+    display: none;
+  }
+
+  #section_type_container_items
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card
+  {
+    height: 300px;
+  }
+  
+  #tituloFooter
+  {
+    width: 500px;
+  }
+
+  #section_footer_container_socialmedia a:nth-of-type(1)
+  {
+    display: none;
+  } 
+}
+
+@media(min-width: 1025px) and (max-width: 1440px) 
+{
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  header
+  {
+    background: linear-gradient(#181C88,#4A0C68);
+    box-shadow: 0px 6px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  #container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img#logo
+  {
+    margin-left: 0%;
+  }
+  
+  nav
+  {
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-basis: 25%;
+  }
+  
+  div nav:nth-of-type(2)
+  {
+    margin-left: 15%;
+  }
+
+  #section_team_container , #section_reference_main_container
+  {
+    padding: 15px;
+    line-height: 35px;
+  }
+  
+  #juegos
+  {
+    width: 1100px;
+  }
+
+  #section_type_container_items
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card
+  {
+    height: 300px;
+  }
+  
+  #tituloFooter
+  {
+    width: 600px;
+  }
+
+  #section_footer_container_socialmedia a:nth-of-type(1)
+  {
+    display: none;
+  } 
+}
+
+@media(min-width: 1441px)
+{
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  header
+  {
+    background: linear-gradient(#181C88,#4A0C68);
+    box-shadow: 0px 6px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  #container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img#logo
+  {
+    margin-left: 0%;
+  }
+  
+  nav
+  {
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-basis: 25%;
+  }
+  
+  div nav:nth-of-type(2)
+  {
+    margin-left: 15%;
+  }
+
+  #section_team_container , #section_reference_main_container
+  {
+    padding: 15px;
+    line-height: 35px;
+  }
+  
+  #juegos
+  {
+    width: 1400px;
+    height: 550px;
+  }
+
+  #section_type_container_items
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card
+  {
+    height: 300px;
+  }
+  
+  #tituloFooter
+  {
+    width: 1100px;
+    height: 75px;
+  }
+
+  #section_footer_container_socialmedia a:nth-of-type(1)
+  {
+    display: none;
+  } 
 }
