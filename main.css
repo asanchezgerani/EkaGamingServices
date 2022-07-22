@@ -557,12 +557,12 @@ footer
     justify-content: center;
     align-items: center;
     margin-top: 20%;
-    margin-bottom: -20%;
+    margin-bottom: -35%;
   }
 
   .slider_Comentarios
   {
-    margin-bottom: -20%;
+    margin-bottom: -30%;
   }
 
   .slider_container{
@@ -704,6 +704,26 @@ footer
     display: none;
   }
 
+  #section_margin
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: -18%;
+  }
+
+  .container
+  {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  .slider_Comentarios
+  {
+    margin-bottom: -15%;
+  }
+
   .slider_container{
     display: grid;
     grid-template-columns: 25px 1fr 25px;
@@ -830,11 +850,26 @@ footer
     display: none;
   }
 
+  #section_margin
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: -8%;
+  }
+
   .container
   {
     width: 100%;
     min-height: 80vh;
   }
+
+  .slider_Comentarios
+  {
+    margin-bottom: -7%;
+  }
+
   .slider_body
   {
     grid-template-columns: 1fr;
@@ -938,10 +973,24 @@ footer
     width: 1100px;
   }
 
+  #section_margin
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: -10%;
+  }
+
   .container
   {
     width: 100%;
     min-height: 60vh;
+  }
+
+  .slider_Comentarios
+  {
+    margin-bottom: -9%;
   }
 
   #section_type_container_items
@@ -1019,6 +1068,26 @@ footer
     line-height: 35px;
   }
   
+  #section_margin
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: -6%;
+  }
+
+  .container
+  {
+    width: 100%;
+    min-height: 60vh;
+  }
+
+  .slider_Comentarios
+  {
+    margin-bottom: -5%;
+  }
+
   #juegos
   {
     width: 1400px;
