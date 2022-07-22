@@ -550,6 +550,21 @@ footer
     width: 100%;
     min-height: 80vh;
   }
+
+  #section_margin
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: -20%;
+  }
+
+  .slider_Comentarios
+  {
+    margin-bottom: -20%;
+  }
+
   .slider_container{
     display: grid;
     grid-template-columns: 25px 1fr 25px;
@@ -695,6 +710,7 @@ footer
     align-items: center;
     gap: 1em;
   }
+
   .slider_body
   {
     grid-template-columns: 1fr;
